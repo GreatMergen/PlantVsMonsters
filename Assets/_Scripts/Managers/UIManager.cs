@@ -40,9 +40,5 @@ public class UIManager : MonoBehaviour
     removeShovel.GetComponent<RemovePlant>().enabled = true;
   }
 
-  private void dsşakjdas()
-  {
-    //printdsalşjdasşda
-  }
-
+  
 }
