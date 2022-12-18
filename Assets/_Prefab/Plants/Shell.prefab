@@ -1061,6 +1061,7 @@ GameObject:
   - component: {fileID: -8154621211619797930}
   - component: {fileID: -5744490636956014697}
   - component: {fileID: 2371203297492461021}
+  - component: {fileID: 6962580184252143873}
   m_Layer: 6
   m_Name: Shell
   m_TagString: Plant
@@ -1114,6 +1115,7 @@ MonoBehaviour:
   sellAudioClip: {fileID: 0}
   buyParticleEffect: {fileID: 0}
   sellParticleEffect: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &-5744490636956014697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1141,6 +1143,26 @@ CapsuleCollider:
   m_Height: 0.69
   m_Direction: 1
   m_Center: {x: 0, y: 0.4, z: 0}
+--- !u!95 &6962580184252143873
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7558011966316281209}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 600f58dca42f8f44f8fc2458a0fb193b, type: 3}
+  m_Controller: {fileID: 9100000, guid: 0908033b1954c6046aac5acb5660eef1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7558011966316281211
 GameObject:
   m_ObjectHideFlags: 0

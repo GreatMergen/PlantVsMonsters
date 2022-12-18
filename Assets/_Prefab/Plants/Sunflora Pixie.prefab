@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6506711962261025844}
   - component: {fileID: 3127162386517839108}
+  - component: {fileID: -5927298545704563682}
   m_Layer: 6
   m_Name: Sunflora Pixie
   m_TagString: DeadLine
@@ -72,6 +73,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.71, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: -0.48}
+--- !u!95 &-5927298545704563682
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6506711962261252116}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6506711962261252160
 GameObject:
   m_ObjectHideFlags: 0

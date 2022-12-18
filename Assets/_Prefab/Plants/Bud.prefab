@@ -5128,6 +5128,8 @@ GameObject:
   - component: {fileID: 9216665311078529073}
   - component: {fileID: -1551942175809579348}
   - component: {fileID: -8715510529134006163}
+  - component: {fileID: 1040599474124378488}
+  - component: {fileID: -4748033498759653275}
   m_Layer: 6
   m_Name: Bud
   m_TagString: Plant
@@ -5187,6 +5189,7 @@ MonoBehaviour:
   sellAudioClip: {fileID: 0}
   buyParticleEffect: {fileID: 0}
   sellParticleEffect: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &-8715510529134006163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5200,6 +5203,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+--- !u!95 &1040599474124378488
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9216665311079015441}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 2e7e8143db108b04f946266b19cb2144, type: 3}
+  m_Controller: {fileID: 9100000, guid: 3f7cb49ff105a6941802388a74919c66, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &-4748033498759653275
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9216665311079015441}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 0.66
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.31, z: 0}
 --- !u!1 &9216665311079015443
 GameObject:
   m_ObjectHideFlags: 0

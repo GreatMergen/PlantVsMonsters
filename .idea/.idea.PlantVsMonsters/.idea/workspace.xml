@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f826dd17-d0df-44c5-9347-64f63e86db31" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlantVsMonsters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlantVsMonsters/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Fly Take Damage.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Fly Take Damage.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Ground Idle to Fly Idle.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Ground Idle to Fly Idle.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Spawn to Rest.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Spawn to Rest.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Spin Attack.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Spin Attack.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Take Damage.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Take Damage.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bloom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bloom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bud.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bud.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Shell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Shell.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Spike.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Spike.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Enemy/BasicEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Enemy/BasicEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/PlantVariables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/PlantVariables.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_Bloom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_Bloom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_Spike.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_Spike.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_SunBloom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_SunBloom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SharedComponent/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SharedComponent/Health.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/pc/Documents/GitHub/PlantVsMonsters/Assets/_Scripts/Enemy/BasicEnemy.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2J3IGYzZIK4heSo6pH7qyLgdgIk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
@@ -21,5 +73,38 @@
       </option>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f826dd17-d0df-44c5-9347-64f63e86db31" name="Changes" comment="" />
+      <created>1671300244706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671300244706</updated>
+      <workItem from="1671300248423" duration="957000" />
+      <workItem from="1671383731690" duration="4150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

@@ -13,12 +13,13 @@ public class Plant_Spike : MonoBehaviour
     private void Start()
     {
         InvokeRepeating("SpikeDamage",firstDamageTime,repeatRate);
+ 
     }
 
     
     private void SpikeDamage()
     {
-        print("Deneme");
+      
        RaycastHit[] enemies =  Physics.SphereCastAll(transform.position, damageRadius, Vector3.up, 1, layer);
        foreach (var raycastHit in enemies)
        {

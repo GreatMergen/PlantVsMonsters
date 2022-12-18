@@ -37,6 +37,14 @@ public class BasicEnemy : MonoBehaviour
         {
             _canDamage = false;
             collision.collider.GetComponent<Health>().TakeDamage(damage);
+            if (collision.collider.GetComponent<Health>().health > 0)
+            {
+                collision.collider.GetComponent<Animator>().CrossFade("Take Damage",0.25f,0);
+            }
+            else
+            {
+                
+            }
         }
     }
 

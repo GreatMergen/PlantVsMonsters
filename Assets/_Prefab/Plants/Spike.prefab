@@ -719,6 +719,7 @@ GameObject:
   - component: {fileID: 1314896743432021059}
   - component: {fileID: -8900972942289491651}
   - component: {fileID: 1755946420}
+  - component: {fileID: -486505881250347197}
   m_Layer: 6
   m_Name: Spike
   m_TagString: Plant
@@ -734,7 +735,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314896743431862371}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 10.692052, y: -0.00000023841858, z: 9.192646}
+  m_LocalPosition: {x: 10.692052, y: -0.763, z: 9.192646}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -768,6 +769,7 @@ MonoBehaviour:
   sellAudioClip: {fileID: 0}
   buyParticleEffect: {fileID: 0}
   sellParticleEffect: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &1755946420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,6 +789,26 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!95 &-486505881250347197
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314896743431862371}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 57d6acb7c5e135d4e838f00790b786ff, type: 3}
+  m_Controller: {fileID: 9100000, guid: c721e9fffb5923c4eb3c3f85632d3559, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1314896743431862373
 GameObject:
   m_ObjectHideFlags: 0

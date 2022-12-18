@@ -446,6 +446,7 @@ GameObject:
   - component: {fileID: 5261800494142889550}
   - component: {fileID: 2196367968818698630}
   - component: {fileID: 851193926}
+  - component: {fileID: -3182281451254978318}
   m_Layer: 6
   m_Name: Sunflower Fairy
   m_TagString: Plant
@@ -534,6 +535,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &-3182281451254978318
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4095862174643954891}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4095862174643954977
 GameObject:
   m_ObjectHideFlags: 0

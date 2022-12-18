@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
@@ -11,7 +12,13 @@ public class PlantVariables : MonoBehaviour
    public AudioClip sellAudioClip;
    public GameObject buyParticleEffect;
    public GameObject sellParticleEffect;
-   
+   public Animator animator;
+
+   private void Start()
+   {
+      animator = GetComponent<Animator>();
+   }
+
    public bool CalculateAndBuyPlant()
    {
       if (GameManager.instance.sun >= buyValue)
@@ -34,13 +41,5 @@ public class PlantVariables : MonoBehaviour
       Destroy(gameObject);
    }
    
-   public void DeathSequance()
-   {
-      StartCoroutine(DeathSeq());
-   }
 
-   private IEnumerator DeathSeq()
-   {
-      yield break;
-   }
 }

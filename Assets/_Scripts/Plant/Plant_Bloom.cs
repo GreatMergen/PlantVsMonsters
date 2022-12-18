@@ -11,10 +11,12 @@ public class Plant_Bloom : MonoBehaviour
    [SerializeField] private Transform seedSpawnTransform;
    [SerializeField] private float seedSpeed,firstSpawnTime, repeatRate,rayLenght;
    [SerializeField] private LayerMask layerMask;
+   
 
    private void Start()
    {
       InvokeRepeating(nameof(SpawnSeed),firstSpawnTime,repeatRate);
+     
    }
 
    private void SpawnSeed()
@@ -23,6 +25,7 @@ public class Plant_Bloom : MonoBehaviour
        {
           if (hit.collider.CompareTag("Enemy"))
           {
+             GetComponent<PlantVariables>().animator.CrossFade("Attack",.25f,0);
              var spawnedSeed =  Instantiate(seedPrefab, seedSpawnTransform.position, quaternion.identity);
              spawnedSeed.GetComponent<Rigidbody>().AddForce(seedSpawnTransform.forward * seedSpeed,ForceMode.Impulse);
              Destroy(spawnedSeed,10f);

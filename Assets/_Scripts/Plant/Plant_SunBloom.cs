@@ -9,9 +9,13 @@ public class Plant_SunBloom : MonoBehaviour
     [SerializeField] private GameObject sunPrefab;
     [SerializeField] private float firstSpawnTime, spawnRepeatRate,spawnDuration;
     [SerializeField] private Ease sunEase;
+
+
+    
     void Start()
     {
         InvokeRepeating(nameof(CreateSun),firstSpawnTime,spawnRepeatRate);
+       
     }
 
     private void CreateSun()
@@ -21,6 +25,7 @@ public class Plant_SunBloom : MonoBehaviour
           Random.Range(spawnedSun.transform.position.x - .5f, spawnedSun.transform.position.x + .5f),
           Random.Range(spawnedSun.transform.position.y + .6f, spawnedSun.transform.position.y + .9f),
           Random.Range(spawnedSun.transform.position.z - .5f, spawnedSun.transform.position.z + .5f));
+      GetComponent<PlantVariables>().animator.CrossFade("CreateSun",.25f,0);
       spawnedSun.transform.DOMove(randomPosition, spawnDuration).SetEase(sunEase);
     }
 }

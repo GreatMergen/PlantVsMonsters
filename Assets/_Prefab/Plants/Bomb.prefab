@@ -9911,6 +9911,7 @@ GameObject:
   - component: {fileID: 4342508689067121210}
   - component: {fileID: 1988423376}
   - component: {fileID: 2488960610813294978}
+  - component: {fileID: -3433627150967424200}
   m_Layer: 6
   m_Name: Bomb
   m_TagString: Plant
@@ -9960,6 +9961,7 @@ MonoBehaviour:
   sellAudioClip: {fileID: 0}
   buyParticleEffect: {fileID: 0}
   sellParticleEffect: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &-6458577712090148233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10015,6 +10017,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 1, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &-3433627150967424200
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7747190606482021464}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 629e310e69885ce44a15ca55050cdbe9, type: 3}
+  m_Controller: {fileID: 9100000, guid: a37cea9b6d11a7b4aae0f16dcf5ac5ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7747190606482021466
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@ using UnityEngine;
 
     public class Health : MonoBehaviour
     {
-        [SerializeField] private int health;
+        public int health;
 
         public void TakeDamage(int damage)
         {
@@ -23,8 +23,12 @@ using UnityEngine;
 
         private IEnumerator DeathSeq()
         {
-            yield return new WaitForSeconds(0.2f);
+            Animator animator = GetComponent<Animator>(); 
+            animator.CrossFade("Die",0.25f,0);
+            yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length -.3f);
             Destroy(gameObject);
         }
+        
+      
 
     }
