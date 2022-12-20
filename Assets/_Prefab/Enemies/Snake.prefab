@@ -461,6 +461,7 @@ GameObject:
   - component: {fileID: 424065281}
   - component: {fileID: 7574157907219272182}
   - component: {fileID: 1479594804}
+  - component: {fileID: 7226935444133326240}
   m_Layer: 7
   m_Name: Snake
   m_TagString: Enemy
@@ -575,8 +576,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.8
-  damageCooldown: 2
   damage: 5
+--- !u!95 &7226935444133326240
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339039597529153725}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: a62c5c5d376520340aa80f2f3643c54e, type: 3}
+  m_Controller: {fileID: 9100000, guid: 701c0b2aba41db049909b390b8b11179, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &339039597529153727
 GameObject:
   m_ObjectHideFlags: 0

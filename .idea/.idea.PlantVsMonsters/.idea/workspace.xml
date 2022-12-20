@@ -6,31 +6,34 @@
   <component name="ChangeListManager">
     <list default="true" id="f826dd17-d0df-44c5-9347-64f63e86db31" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlantVsMonsters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlantVsMonsters/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Fly Projectile Forward.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Fly Projectile Forward.FBX.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Fly Take Damage.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Fly Take Damage.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Ground Idle to Fly Idle.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Ground Idle to Fly Idle.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Spawn to Rest.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Spawn to Rest.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Spin Attack.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Spin Attack.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Take Damage.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Take Damage.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bloom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bloom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bomb.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bud.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bud.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Shell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Shell.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Spike.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Spike.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bloom.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bloom.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bomb.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bomb.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bud.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bud.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Shell.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Shell.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Spike.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Spike.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_SunBloom.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_SunBloom.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Levels/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Snake.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Snake.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Snakelet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Snakelet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Wolf Pup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Wolf Pup.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Enemy/BasicEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Enemy/BasicEnemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/PlantVariables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/PlantVariables.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_Bloom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_Bloom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_Spike.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_Spike.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_SunBloom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_SunBloom.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SharedComponent/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SharedComponent/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/pc/Documents/GitHub/PlantVsMonsters/Assets/_Scripts/Enemy/BasicEnemy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1671300244706</updated>
       <workItem from="1671300248423" duration="957000" />
-      <workItem from="1671383731690" duration="4150000" />
+      <workItem from="1671383731690" duration="4299000" />
+      <workItem from="1671568250933" duration="2544000" />
     </task>
     <servers />
   </component>

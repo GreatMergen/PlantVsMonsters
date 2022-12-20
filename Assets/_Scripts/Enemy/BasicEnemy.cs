@@ -6,18 +6,20 @@ using UnityEngine;
 public class BasicEnemy : MonoBehaviour
 {
     private Rigidbody _rb;
-    [SerializeField] private float moveSpeed,damageCooldown = 2f;
+    [SerializeField] private float moveSpeed;
     [SerializeField] private int damage;
     private float _damageTimer;
     private bool _canDamage;
+    private Animator _animator;
     private void Start()
     {
         _rb = GetComponent<Rigidbody>();
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        if (_damageTimer >= damageCooldown)
+        if (_damageTimer >= _animator.GetCurrentAnimatorStateInfo(0).length +0.25f)
         {
             _damageTimer = 0;
             _canDamage = true;
@@ -39,6 +41,7 @@ public class BasicEnemy : MonoBehaviour
             collision.collider.GetComponent<Health>().TakeDamage(damage);
             if (collision.collider.GetComponent<Health>().health > 0)
             {
+                _animator.CrossFade("Attack",0.25f,0);
                 collision.collider.GetComponent<Animator>().CrossFade("Take Damage",0.25f,0);
             }
             else

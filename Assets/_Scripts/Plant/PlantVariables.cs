@@ -17,6 +17,12 @@ public class PlantVariables : MonoBehaviour
    private void Start()
    {
       animator = GetComponent<Animator>();
+      Invoke(nameof(SpawnedPlant),3f);
+   }
+
+   private void SpawnedPlant()
+   {
+      animator.SetBool("isSpawned", true);
    }
 
    public bool CalculateAndBuyPlant()

@@ -25,8 +25,14 @@ using UnityEngine;
         {
             Animator animator = GetComponent<Animator>(); 
             animator.CrossFade("Die",0.25f,0);
-            yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length -.3f);
+            yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length );
+            if (gameObject.GetComponent<PlantVariables>() != null)
+            {
+                gameObject.transform.parent.tag = "EmptyLand";
+            }
+           
             Destroy(gameObject);
+            
         }
         
       
