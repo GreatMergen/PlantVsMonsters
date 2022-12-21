@@ -6,27 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="f826dd17-d0df-44c5-9347-64f63e86db31" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlantVsMonsters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlantVsMonsters/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Fly Projectile Forward.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Fly Projectile Forward.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Fly Take Damage.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Bud Cute Series/FBX/Bud@Fly Take Damage.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bloom.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bloom.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bomb.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bomb.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bud.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Bud.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Shell.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Shell.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Spike.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_Spike.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_SunBloom.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/_SunBloom.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Turn Right.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monsters Ultimate Pack 02 Cute Series/Sun Blossom Cute Series/FBX/Sun Blossom@Turn Right.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Animations/Plants_Animations/_SunBloom.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Animations/Plants_Animations/_SunBloom.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Levels/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Snake.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Snake.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Snakelet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Snakelet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Wolf Pup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Enemies/Wolf Pup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Bomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Sunflora Pixie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Sunflora Pixie.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Plants/Sunflower Fairy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Plants/Sunflower Fairy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Enemy/BasicEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Enemy/BasicEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/PlantVariables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/PlantVariables.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SharedComponent/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SharedComponent/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/DragManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/DragManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_Bomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_Bomb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_SunBloom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/Plant_SunBloom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Plant/RemovePlant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Plant/RemovePlant.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -88,6 +81,7 @@
       <workItem from="1671300248423" duration="957000" />
       <workItem from="1671383731690" duration="4299000" />
       <workItem from="1671568250933" duration="2544000" />
+      <workItem from="1671636163377" duration="5843000" />
     </task>
     <servers />
   </component>

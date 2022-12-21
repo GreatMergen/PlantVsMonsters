@@ -15,12 +15,13 @@ public class DragManager : MonoBehaviour, IDragHandler , IBeginDragHandler,IEndD
 
     private void Start()
     {
-        _startPosition = transform.position;
+      
         plantTransparent.SetActive(false);
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        _startPosition = transform.position;
         Cursor.SetCursor(GameManager.instance.plantCursor,Vector2.zero,CursorMode.ForceSoftware);
         GameManager.instance.gameState = GameState.Planting;
         plantTransparent.SetActive(true);

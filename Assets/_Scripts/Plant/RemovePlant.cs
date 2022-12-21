@@ -23,7 +23,12 @@ public class RemovePlant : MonoBehaviour
                     {
                        hit.collider.transform.GetChild(0).transform.GetComponent<PlantVariables>().SellPlant();
                        hit.collider.tag = "EmptyLand";
+                       
+                       enabled = false;
+                       GameManager.instance.gameState = GameState.Collecting;
+                       Cursor.SetCursor(GameManager.instance.collectCursor,Vector2.zero,CursorMode.ForceSoftware);
                     }
+                  
                 }
                
             }

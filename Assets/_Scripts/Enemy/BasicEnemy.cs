@@ -6,7 +6,7 @@ using UnityEngine;
 public class BasicEnemy : MonoBehaviour
 {
     private Rigidbody _rb;
-    [SerializeField] private float moveSpeed;
+    public float moveSpeed;
     [SerializeField] private int damage;
     private float _damageTimer;
     private bool _canDamage;

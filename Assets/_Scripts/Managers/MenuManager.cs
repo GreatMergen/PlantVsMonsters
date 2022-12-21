@@ -15,12 +15,7 @@ public class MenuManager : MonoBehaviour
     {
         LevelLock();
     }
-
-    private void Update()
-    {
-       
-    }
-
+    
     public void StartGame()
    {
        SceneManager.LoadScene("LevelSelectScene");

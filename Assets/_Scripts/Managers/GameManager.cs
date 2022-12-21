@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public enum GameState
 {
    Planting,Collecting,Removing
 }
+
 public class GameManager : MonoBehaviour
 {
    public static GameManager instance;
@@ -14,7 +16,6 @@ public class GameManager : MonoBehaviour
    public Texture2D plantCursor;
    public Texture2D removeCursor;
    
-
    private void Awake()
    {
       if (instance == null)
@@ -25,33 +26,34 @@ public class GameManager : MonoBehaviour
       {
          Destroy(gameObject);
       }
+      
       DontDestroyOnLoad(gameObject);
    }
-
+   
    private void Start()
    {
       gameState = GameState.Collecting;
       Cursor.visible = true;
       Cursor.SetCursor(collectCursor,Vector2.zero,CursorMode.ForceSoftware);
       SaveSystem.instance.LoadSave();
-      
+      QualitySettings.SetQualityLevel(2);
    }
    
    private void Update()
    {
       CollectFunction();
-
+      
       if (Input.GetKeyDown(KeyCode.A))
       {
          SaveSystem.instance.LevelCompletedSave(SceneManager.GetActiveScene().buildIndex);
       }
-     
+      
       if (Input.GetKeyDown(KeyCode.T))
       {
          AudioManager.instance.Play("hitHurt");
       }
    }
-
+   
    void CollectFunction()
    {
       if (GameManager.instance.gameState != GameState.Collecting) return;
@@ -61,7 +63,7 @@ public class GameManager : MonoBehaviour
          hit.collider.GetComponent<Sun>().CollectSun();
       }
    }
-
+   
    public void Dead()
    {
       //Ölümü daha düzgün şekilde ayarla Unity Eventler veya IEnimarotorlar
