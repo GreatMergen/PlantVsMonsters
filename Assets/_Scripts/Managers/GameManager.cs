@@ -27,11 +27,11 @@ public class GameManager : MonoBehaviour
          Destroy(gameObject);
       }
       
-      DontDestroyOnLoad(gameObject);
    }
    
    private void Start()
    {
+      Time.timeScale = 1;
       gameState = GameState.Collecting;
       Cursor.visible = true;
       Cursor.SetCursor(collectCursor,Vector2.zero,CursorMode.ForceSoftware);
@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
       
       if (Input.GetKeyDown(KeyCode.A))
       {
-         SaveSystem.instance.LevelCompletedSave(SceneManager.GetActiveScene().buildIndex);
+       
       }
       
       if (Input.GetKeyDown(KeyCode.T))
@@ -64,10 +64,18 @@ public class GameManager : MonoBehaviour
       }
    }
    
+   public void Win()
+   {
+      GameMenu.instance.WinScreenEnable();
+      Time.timeScale = 0;
+      //sesler efectler falan burada
+   }
    public void Dead()
    {
-      //Ölümü daha düzgün şekilde ayarla Unity Eventler veya IEnimarotorlar
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+      GameMenu.instance.DeathScreenEnable();
+      Time.timeScale = 0;
    }
+
    
+  
 }

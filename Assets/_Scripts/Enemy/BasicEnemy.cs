@@ -58,4 +58,17 @@ public class BasicEnemy : MonoBehaviour
             GameManager.instance.Dead();
         }
     }
+
+    private void OnDestroy()
+    {
+        if (EnemySpawnManager.instance.enemySpawnDone == true)
+        {
+            BasicEnemy[] enemies = UnityEngine.Object.FindObjectsOfType<BasicEnemy>() ;
+
+            if (enemies.Length == 0)
+            {
+                 GameManager.instance.Win();
+            }
+        }
+    }
 }

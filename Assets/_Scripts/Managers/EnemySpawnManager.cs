@@ -1,7 +1,11 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
+
 public class EnemySpawnManager : MonoBehaviour
 {
+    public static EnemySpawnManager instance;
     [SerializeField] private Transform[] spawnPositions;
     [SerializeField] private float spawnTimeBetweenEnemies;
     [Tooltip("Düşman kalitesini belirler 60 altı kesin easyEnemy,80 altı orta basit karışık,100 ve altı en zoru")]
@@ -9,6 +13,20 @@ public class EnemySpawnManager : MonoBehaviour
     [SerializeField] private int enemyNumber;
     [SerializeField] private GameObject easyEnemyPrefab,midEnemyPrefab,hardEnemyPrefab;
     private int _spawnPosNumber, _spawnedEnemyCount;
+    public bool enemySpawnDone;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     
     void Start()
     {
@@ -31,6 +49,7 @@ public class EnemySpawnManager : MonoBehaviour
                 else
                 {
                     print("Enemy bitti");
+                    enemySpawnDone = true;
                     yield break;
                 }
         }
