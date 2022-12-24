@@ -867,9 +867,9 @@ GameObject:
   - component: {fileID: 5303049702741222257}
   - component: {fileID: 5056792629722140153}
   - component: {fileID: -6660091927929797538}
-  - component: {fileID: 3386578547803100129}
   - component: {fileID: -5296086123935538454}
   - component: {fileID: -6541475734152460199}
+  - component: {fileID: -2551548028594161789}
   m_Layer: 6
   m_Name: Sun Blossom
   m_TagString: Plant
@@ -928,6 +928,7 @@ MonoBehaviour:
   sellAudioClip: {fileID: 0}
   buyParticleEffect: {fileID: 0}
   sellParticleEffect: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &-6660091927929797538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -943,23 +944,10 @@ MonoBehaviour:
   spawnTransform: {fileID: 3170881880100792467}
   sunPrefab: {fileID: 6276834095685842492, guid: d1da20273688682458ce28781c6d22d0,
     type: 3}
-  firstSpawnTime: 6
-  spawnRepeatRate: 10
+  firstSpawnTime: 5
+  spawnRepeatRate: 15
   spawnDuration: 0.5
   sunEase: 21
---- !u!135 &3386578547803100129
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5303049702741524305}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.35
-  m_Center: {x: 0, y: 0.21, z: 0}
 --- !u!114 &-5296086123935538454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -972,7 +960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 186d6453496b4f52bd1b06d0e55dcf43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 15
 --- !u!95 &-6541475734152460199
 Animator:
   serializedVersion: 4
@@ -993,6 +981,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &-2551548028594161789
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303049702741524305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.39
+  m_Height: 0.61
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.26, z: 0}
 --- !u!1 &5303049702741524307
 GameObject:
   m_ObjectHideFlags: 0

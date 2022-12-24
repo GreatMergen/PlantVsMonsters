@@ -127,5 +127,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b89a7975ef3461594b8eb7a4ff69f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seedDamage: 5
-  poweredSeedDamage: 15
+  seedDamage: 6
+  poweredSeedDamage: 12

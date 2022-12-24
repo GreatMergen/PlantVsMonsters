@@ -17,7 +17,8 @@ using UnityEngine;
             if (other.gameObject.CompareTag("Enemy"))
             {
                 //çarpma effecktleri burada oynayacak!!!!
-                other.GetComponent<Health>().TakeDamage(_currentDamage);
+                print("hasar vurdu");
+                other.GetComponent<Health>().TakeDamage(_currentDamage/2);
                 Destroy(gameObject);
             }
             else if(other.gameObject.CompareTag("SeedPowerUp"))

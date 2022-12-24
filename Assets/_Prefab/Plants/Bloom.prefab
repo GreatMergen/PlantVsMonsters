@@ -83,6 +83,7 @@ MonoBehaviour:
   sellAudioClip: {fileID: 0}
   buyParticleEffect: {fileID: 0}
   sellParticleEffect: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &-3596465739139888724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 186d6453496b4f52bd1b06d0e55dcf43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 15
 --- !u!114 &6738672387737022236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,7 +115,7 @@ MonoBehaviour:
   seedSpeed: 5
   firstSpawnTime: 3
   repeatRate: 5
-  rayLenght: 9
+  rayLenght: 7
   layerMask:
     serializedVersion: 2
     m_Bits: 128

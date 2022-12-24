@@ -15,7 +15,6 @@ using UnityEngine;
             }
         }
         
-        
         public void DeathSequance()
         {
             StartCoroutine(DeathSeq());
@@ -23,6 +22,7 @@ using UnityEngine;
 
         private IEnumerator DeathSeq()
         {
+            GetComponent<CapsuleCollider>().enabled = false;
             Animator animator = GetComponent<Animator>(); 
             animator.CrossFade("Die",0.25f,0);
             yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length );
@@ -34,7 +34,4 @@ using UnityEngine;
             Destroy(gameObject);
             
         }
-        
-      
-
     }

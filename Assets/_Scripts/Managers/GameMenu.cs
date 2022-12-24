@@ -67,7 +67,6 @@ public class GameMenu : MonoBehaviour
    
    public void NextLevel()
    {
-      SaveSystem.instance.LevelCompletedSave(SceneManager.GetActiveScene().buildIndex);
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
    }
 

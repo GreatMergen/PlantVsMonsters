@@ -111,7 +111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dd4a4f7ee56a794fa1d4565d8a86f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sunValue: 100
+  sunValue: 50
+  destroyTime: 10
+  scaleTime: 2.5
+  ease: 28
 --- !u!54 &-5850992282775274505
 Rigidbody:
   m_ObjectHideFlags: 0

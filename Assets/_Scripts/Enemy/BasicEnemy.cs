@@ -44,10 +44,6 @@ public class BasicEnemy : MonoBehaviour
                 _animator.CrossFade("Attack",0.25f,0);
                 collision.collider.GetComponent<Animator>().CrossFade("Take Damage",0.25f,0);
             }
-            else
-            {
-                
-            }
         }
     }
 

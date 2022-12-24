@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
    
    public void Win()
    {
+      SaveSystem.instance.LevelCompletedSave(SceneManager.GetActiveScene().buildIndex);
       GameMenu.instance.WinScreenEnable();
       Time.timeScale = 0;
       //sesler efectler falan burada
