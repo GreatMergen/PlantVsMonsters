@@ -15,7 +15,6 @@ public class DragManager : MonoBehaviour, IDragHandler , IBeginDragHandler,IEndD
 
     private void Start()
     {
-      
         plantTransparent.SetActive(false);
     }
 

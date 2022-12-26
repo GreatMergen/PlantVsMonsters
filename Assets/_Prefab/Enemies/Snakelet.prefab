@@ -235,8 +235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ab14cb4bf81fb340a10b933d12a81b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.6
+  moveSpeed: 0.45
   damage: 3
+  attackSound: EasyEnemyAttack
 --- !u!114 &3412967824141694877
 MonoBehaviour:
   m_ObjectHideFlags: 0

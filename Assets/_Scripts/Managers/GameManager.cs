@@ -32,26 +32,22 @@ public class GameManager : MonoBehaviour
    private void Start()
    {
       Time.timeScale = 1;
-      gameState = GameState.Collecting;
-      Cursor.visible = true;
-      Cursor.SetCursor(collectCursor,Vector2.zero,CursorMode.ForceSoftware);
+      CollectState();
       SaveSystem.instance.LoadSave();
       QualitySettings.SetQualityLevel(2);
    }
-   
+
+   private void CollectState()
+   {
+      gameState = GameState.Collecting;
+      Cursor.visible = true;
+      Cursor.SetCursor(collectCursor, Vector2.zero, CursorMode.ForceSoftware);
+   }
+
    private void Update()
    {
       CollectFunction();
       
-      if (Input.GetKeyDown(KeyCode.A))
-      {
-       
-      }
-      
-      if (Input.GetKeyDown(KeyCode.T))
-      {
-         AudioManager.instance.Play("hitHurt");
-      }
    }
    
    void CollectFunction()
@@ -68,15 +64,17 @@ public class GameManager : MonoBehaviour
    {
       SaveSystem.instance.LevelCompletedSave(SceneManager.GetActiveScene().buildIndex);
       GameMenu.instance.WinScreenEnable();
+      AudioManager.instance.Stop("LevelMusic");
+      AudioManager.instance.Play("WinGame");
+      
       Time.timeScale = 0;
       //sesler efectler falan burada
    }
    public void Dead()
    {
       GameMenu.instance.DeathScreenEnable();
+      AudioManager.instance.Stop("LevelMusic");
+      AudioManager.instance.Play("LostGame");
       Time.timeScale = 0;
    }
-
-   
-  
 }

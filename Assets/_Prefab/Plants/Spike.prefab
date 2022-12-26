@@ -782,7 +782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a43d78525919d48bcfcd145387c4a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spikeDamage: 2
+  spikeDamage: 7
   firstDamageTime: 3
   repeatRate: 2
   damageRadius: 0.4

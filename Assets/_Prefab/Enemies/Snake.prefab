@@ -575,8 +575,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad7cc582153030e4990892ccd7e1d5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.8
+  moveSpeed: 0.55
   damage: 5
+  attackSound: MediumEnemyAttack
 --- !u!95 &7226935444133326240
 Animator:
   serializedVersion: 4

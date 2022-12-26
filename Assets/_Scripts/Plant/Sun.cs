@@ -18,6 +18,7 @@ public class Sun : MonoBehaviour
     public void CollectSun()
     {
         //Effect ve sesler burada olacak, animasyonlar (dotween)
+        AudioManager.instance.Play("CollectSun");
         GameManager.instance.sun += sunValue;
         UIManager.instance.UpdateCurrentSunText();
         Destroy(gameObject);

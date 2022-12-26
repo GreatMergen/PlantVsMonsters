@@ -11,6 +11,8 @@ public class BasicEnemy : MonoBehaviour
     private float _damageTimer;
     private bool _canDamage;
     private Animator _animator;
+    [SerializeField] private String attackSound;
+    
     private void Start()
     {
         _rb = GetComponent<Rigidbody>();
@@ -42,6 +44,7 @@ public class BasicEnemy : MonoBehaviour
             if (collision.collider.GetComponent<Health>().health > 0)
             {
                 _animator.CrossFade("Attack",0.25f,0);
+              // Bir tane attack sesi olduğu için kapatıyorum her düşmanın kendi sesi olmalı AudioManager'ı  AudioManager.instance.Play(attackSound);
                 collision.collider.GetComponent<Animator>().CrossFade("Take Damage",0.25f,0);
             }
         }

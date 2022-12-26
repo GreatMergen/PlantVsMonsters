@@ -15,18 +15,17 @@ public class Plant_Bomb : MonoBehaviour
         bombCollider.enabled = false;
         StartCoroutine(Explode());
     }
-
     private IEnumerator Explode()
     {
         yield return new WaitForSeconds(GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length + .5f);
         bombCollider.enabled = true;
         yield return new WaitForSeconds(.1f);
         //Effectler oynyacak
+        AudioManager.instance.Play("BombSound");
         Destroy(Instantiate(explodeEffect , transform.position , quaternion.identity),1); 
         transform.parent.gameObject.tag = "EmptyLand";
         Destroy(gameObject);
     }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Enemy"))

@@ -31,7 +31,7 @@ public class PlantVariables : MonoBehaviour
       {
          GameManager.instance.sun -= buyValue;
          UIManager.instance.UpdateCurrentSunText();
-       //  AudioManager.instance.PlaySoundEffect(buyAudioClip);
+         AudioManager.instance.Play("PlantSound");
       //   Instantiate(buyParticleEffect, transform.position, quaternion.identity);
          return true;
       }
@@ -42,7 +42,7 @@ public class PlantVariables : MonoBehaviour
    {
       GameManager.instance.sun += sellValue;
       UIManager.instance.UpdateCurrentSunText();
-     // AudioManager.instance.PlaySoundEffect(sellAudioClip);
+      AudioManager.instance.Play("RemoveSound");
     //  Instantiate(sellParticleEffect, transform.position, quaternion.identity);
       Destroy(gameObject);
    }

@@ -5,7 +5,6 @@ using DG.Tweening;
 public class Plant_DefencePlant : MonoBehaviour
 {
    private bool _firstCollision = true;
- 
    private void OnTriggerEnter(Collider other)
    {
     
@@ -15,7 +14,6 @@ public class Plant_DefencePlant : MonoBehaviour
          other.gameObject.GetComponent<Health>().TakeDamage(10000);
       }
    }
-
    private void ClearWave()
    {
       if (_firstCollision)
@@ -23,7 +21,7 @@ public class Plant_DefencePlant : MonoBehaviour
          _firstCollision = false;
          transform.DOMoveY(transform.position.y + 0.15f, 0.25f).OnComplete(() =>
          {
-            transform.DOMoveX(20, 8).OnComplete(() =>
+            transform.DOMoveX(12, 5f).OnComplete(() =>
             {
                Destroy(gameObject);
             });

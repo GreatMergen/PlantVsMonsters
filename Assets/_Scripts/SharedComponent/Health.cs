@@ -4,7 +4,8 @@ using UnityEngine;
     public class Health : MonoBehaviour
     {
         public int health;
-
+        
+        
         public void TakeDamage(int damage)
         {
             health -= damage;
@@ -30,7 +31,26 @@ using UnityEngine;
             {
                 gameObject.transform.parent.tag = "EmptyLand";
             }
-           
+
+         /*Düşman sesleri düzgün çalışmıyor her düşman kendi sesini yaratnmalı şimdilik kapatıyorum
+            if (gameObject.GetComponent<BasicEnemy>() != null)
+            {
+                if (gameObject.GetComponent<Enemy_Snake>() != null)
+                {
+                    AudioManager.instance.Play("MediumEnemyDeath");
+                }
+                else if (gameObject.GetComponent<Enemy_Snakelet>() != null)
+                {
+                    AudioManager.instance.Play("EasyEnemyDeath");
+                }
+                else if (gameObject.GetComponent<Enemy_WolfPup>() != null)
+                {
+                    AudioManager.instance.Play("HardEnemyDeath");
+                }
+               
+            }
+            */
+         
             Destroy(gameObject);
             
         }

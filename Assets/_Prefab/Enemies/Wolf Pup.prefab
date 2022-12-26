@@ -1257,6 +1257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   damage: 8
+  attackSound: 
 --- !u!136 &1817373025
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1297,8 +1298,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae143a88cf813c146a84f248fe80cdff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.9
+  moveSpeed: 0.75
   damage: 8
+  attackSound: HardEnemyAttack
 --- !u!114 &1817373027
 MonoBehaviour:
   m_ObjectHideFlags: 0

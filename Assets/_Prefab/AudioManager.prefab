@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3150979085324450228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3150979085324450225}
+  - component: {fileID: 3150979085324450230}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3150979085324450225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3150979085324450228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 768.9985, y: 393.45242, z: -15.325457}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3150979085324450230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3150979085324450228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c81faded0543e1b8d7dbe5ba1af6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 0b9149e828a78e647bbe516d61e6256b, type: 3}
+    name: ClickSound
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 8ceec224718da8b4992674e3a22df9bb, type: 3}
+    name: CollectSun
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: d0468c4fad9573c43be5912e5276b88f, type: 3}
+    name: EasyEnemyAttack
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 96a04d3beb1f9a447926737b94309ef9, type: 3}
+    name: EasyEnemyDeath
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 97982bb8f0737ab40840dd21590dc376, type: 3}
+    name: HardEnemyAttack
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 792bdc2e401ddbc4db194a676c88b4e4, type: 3}
+    name: HardEnemyDeath
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 82ed4f0f9e8859546a3c28503cda0c9f, type: 3}
+    name: LostGame
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 6af1e708c39cfd54cb051bff51293ce6, type: 3}
+    name: MediumEnemyAttack
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 210592e478d80dc4c888311f6d8d208d, type: 3}
+    name: MediumEnemyDeath
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 929305aa8a03eae42a1f3f820b82cabe, type: 3}
+    name: PlantSound
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 81a04408e18fb15428a0d70f978c9152, type: 3}
+    name: RemoveSound
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: a2e5fa933a784ec4ebe05a91a1fe09a0, type: 3}
+    name: ShootSeed
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 6ebab322bef5cd14eb2293f8060bf3d2, type: 3}
+    name: WinGame
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 9039131abf976aa44b63aa8f1f499aac, type: 3}
+    name: BombSound
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 63f953f2239b53341a61c9fd52a9db4a, type: 3}
+    name: LevelMusic
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: 13cbb9fe82afb9244bc1ac27d4183917, type: 3}
+    name: MainMusic
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  sfxMixerGroup: {fileID: -6986813483787249883, guid: 4e192afac8036eb4389f895c3be84cf6,
+    type: 2}
+  musicMixerGroup: {fileID: 1834520615334085504, guid: 4e192afac8036eb4389f895c3be84cf6,
+    type: 2}
